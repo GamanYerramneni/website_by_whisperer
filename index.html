@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sony Products</title>
+  <style>
+    /* Resetting default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Slider styles */
+    .slider {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .slider img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+    }
+
+    .product {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .product img {
+      width: 300px;
+      margin-right: 20px;
+    }
+
+    .product .details {
+      flex: 1;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-form {
+      margin-top: 20px;
+    }
+
+    .contact-form h3 {
+      margin-bottom: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .contact-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Sony</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <!-- Dynamic image slider code goes here -->
+    <img src="product1.jpg" alt="Product 1">
+    <img src="product2.jpg" alt="Product 2">
+    <img src="product3.jpg" alt="Product 3">
+  </div>
+
+  <main>
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <div class="details">
+        <h2>Product 1</h2>
+        <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Key Features:</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+        </ul>
+        <p>Specifications:</p>
+        <ul>
+          <li>Specification 1</li>
+          <li>Specification 2</li>
+          <li>Specification 3</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Additional product details go here -->
+
+  </main>
+
+  <footer>
+    <div class="copyright">&copy; 2024 Sony. All rights reserved.</div>
+    <div class="contact-form">
+      <h3>Contact Us</h3>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </footer>
+
+  <script>
+    // You can add JavaScript functionality here if needed
+  </script>
+</body>
+</html>
